@@ -1,0 +1,333 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+/*导航 begin*/
+
+nav {
+	width: 100%;
+}
+
+nav>img {
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+}
+
+.navText {
+	margin-top: 119px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.navText li {
+	display: inline-block;
+	width: 132px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.navText li:hover {
+	font-weight: 600;
+	cursor: pointer;
+	color: #c8ff02;
+}
+
+.navText li img {
+	float: right;
+}
+
+.fruit-group {
+	position: absolute;
+	top: 580px;
+	left: 25%;
+}
+
+.fruit-group>img {
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+}
+
+.fruit-group .border-fruits {
+	width: auto;
+	position: relative;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+.border-fruits .mask:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.mask {
+	transition: 0.5s;
+	opacity: 0;
+	width: 144px;
+	position: absolute;
+	height: 67px;
+	color: #fff;
+	top: 6px;
+	left: 5px;
+	font-weight: 600;
+	font-size: 18px;
+	font-family: "宋体";
+	text-align: center;
+	line-height: 67px;
+	background-color: rgba(77, 168, 13, 0.8);;
+}
+
+
+/*导航 end*/
+
+
+/*公告 begin*/
+
+.notice {
+	width: 100%;
+	height: 72px;
+	background-color: #f1f1f1;
+	margin: 506px auto 0;
+}
+
+.notice>div {
+	display: inline-block;
+	line-height: 72px;
+}
+
+.notice-l {
+	margin-left: 494px;
+	color: #a5a5a5;
+	font-size: 18px;
+}
+
+.notice-l span:last-child {
+	color: #7b7b7b;
+	font-size: 12px;
+}
+
+.notice-l img {
+	position: relative;
+	top: 8px;
+	margin-right: 6px;
+}
+
+.notice-r {
+	margin-right: 428px;
+	float: right;
+	color: #434343;
+	font-size: 12px;
+}
+
+.notice-r span {
+	position: relative;
+	right: 200px;
+}
+
+
+/*公告 end*/
+
+
+/*主要内容 begin*/
+
+.content {
+	height: 292px;
+	width: 100%;
+	padding: 0 25%;
+	display: flex;
+	background-color: #fff;
+}
+
+.content-box {
+	display: inline-block;
+	text-align: left;
+}
+
+.content-l {
+	padding: 0 8px 0 8px;
+}
+
+.content-m {
+	padding: 0 4px 0 4px;
+}
+
+.content-r {
+	padding: 0 14px 0 8px;
+	width: 210px;
+	background: url(../fruit-img/tel.png)no-repeat scroll top left;
+}
+
+.content-box span {
+	display: block;
+	color: #595959;
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 28px;
+}
+
+.content-l span {
+	position: relative;
+	left: 6px;
+}
+
+.content-l .first-span {
+	left: 30px;
+}
+
+.content-l span .green-span {
+	color: #338000;
+	display: inline-block;
+}
+
+.text-div {
+	margin-top: 8px;
+}
+
+.title-div {
+	height: 52px;
+	width: ;
+	padding: 10px 0;
+}
+
+.title-div img {
+	display: inline-block;
+}
+
+.title-div img:last-child {
+	float: right;
+	transform: translateY(80%);
+}
+
+.border-l {
+	width: 100%;
+	display: flex;
+}
+
+.border-l img {
+	border: 1px solid #cbcbcb;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.title-span,
+.img-span {
+	display: inline-block;
+}
+
+.title-span span {
+	color: #e7720a;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.title-span span:first-child {
+	color: #206609;
+	font-size: 16px;
+}
+
+.content-m .long-span {
+	width: 380px;
+}
+
+.content-m .long-span span {
+	display: inline-block;
+	color: #a8a8a8;
+	float: right;
+}
+
+.img-span {
+	margin: 4px 0 0 10px;
+}
+
+.img-span span {
+	color: #a8a8a8;
+	font-size: 12px;
+	line-height: 23px;
+	font-family: "黑体";
+}
+
+.img-span span:first-child {
+	color: #357927;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "宋体";
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.img-span-div {
+	position: relative;
+	top: 94px;
+}
+
+.img-span-div span {
+	color: #7f7f7f;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.img-span-div .last-span {
+	position: relative;
+	left: 22px;
+}
+
+.img-span-div span img {
+	display: inline-block;
+	top: 4px;
+}
+
+.img-span-div span span {
+	display: inline-block;
+}
+
+.img-span-div .orange-span {
+	color: #7b4914;
+}
+
+
+/*主要内容 end*/
+
+footer {
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	position: relative;
+	text-align: center;
+	background-color: #38970f;
+}
+
+footer img {
+	position: absolute;
+	left: 25%;
+	z-index: 0;
+}
+
+footer span {
+	font-size: 12px;
+	color: #fff;
+	position: relative;
+	z-index: 3;
+}
