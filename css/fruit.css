@@ -297,6 +297,7 @@ nav>img {
 .img-span-div span img {
 	display: inline-block;
 	top: 4px;
+	position: relative;
 }
 
 .img-span-div span span {
